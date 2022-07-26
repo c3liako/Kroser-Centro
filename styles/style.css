@@ -565,8 +565,7 @@ input[type="button"i] {
         background-image: url(../imagenes/index/fondo.jpg);
         color: white;
         font-variant-caps: all-petite-caps;
-        font-size: 35
-px;
+        font-size: 35px;
         font-family: 'Fredericka the Great', cursive;
         padding: 5px;
     }
@@ -764,7 +763,8 @@ px;
     }
 
     .contactoImg {
-        padding: 50px;
+        width: 350px;
+        padding: 5px;
     }
 
     /* ----------------------------- SUGERIDOS MOBILE ---------------------------- */
@@ -782,6 +782,10 @@ px;
         align-items: center;
         justify-content: center;
         width: auto;
+    }
+
+    .sugeridos div img{
+        width: 300px;
     }
 
     .a {
@@ -819,9 +823,6 @@ px;
         grid-row: 4 / 5;
     }
 
-    .sugeridos div img {
-        width: auto;
-    }
 
     .productos {
         display: flex;
@@ -1196,7 +1197,8 @@ px;
     }
 
     .contactoImg {
-        padding: 50px;
+        width: 350px;
+        padding: 5px;
     }
 
     /* ----------------------------- SUGERIDOS TABLET ---------------------------- */
