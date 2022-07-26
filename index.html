@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kroser Centro</title>
     <script src="https://kit.fontawesome.com/59ad33faf6.js" crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -114,42 +117,30 @@
         <div>
             <h2>Ideas</h2>
         </div>
-        <div class="slide">
-            <div class="slide-inner">
-                <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
-                    checked="checked">
-                <div class="slide-item">
-                    <img src="./imagenes/index/slide1.png">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagenes/index/slide1.png" class="d-block w-100" alt="...">
                 </div>
-                <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
-                <div class="slide-item">
-                    <img src="./imagenes/index/slide2.png">
+                <div class="carousel-item">
+                    <img src="./imagenes/index/slide2.png" class="d-block w-100" alt="...">
                 </div>
-                <input class="slide-open" type="radio" id="slide-3" name="slide" aria-hidden="true" hidden="">
-                <div class="slide-item">
-                    <img src="./imagenes/index/slide3.png">
+                <div class="carousel-item">
+                    <img src="./imagenes/index/slide3.png" class="d-block w-100" alt="...">
                 </div>
-                <label for="slide-3" class="slide-control prev control-1">‹</label>
-                <label for="slide-2" class="slide-control next control-1">›</label>
-                <label for="slide-1" class="slide-control prev control-2">‹</label>
-                <label for="slide-3" class="slide-control next control-2">›</label>
-                <label for="slide-2" class="slide-control prev control-3">‹</label>
-                <label for="slide-1" class="slide-control next control-3">›</label>
-                <ol class="slide-indicador">
-                    <li>
-                        <label for="slide-1" class="slide-circulo">•</label>
-                    </li>
-                    <li>
-                        <label for="slide-2" class="slide-circulo">•</label>
-                    </li>
-                    <li>
-                        <label for="slide-3" class="slide-circulo">•</label>
-                    </li>
-                </ol>
             </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Prev</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-        <div>
-            <h2>innovadoras</h2>
+        <h2>innovadoras</h2>
         </div>
     </section>
     <!-- ------------------------------ SECTION 2 ------------------------------ -->
@@ -215,6 +206,10 @@
         </section>
         <p class="credit">by Sebastián Illa</p>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
