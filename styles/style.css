@@ -435,9 +435,9 @@ input[type="button"i] {
     font-size: 36px;
 }
 
-.carta img {
-    width: auto;
-    height: auto;
+.carta a img {
+    width: 100%;
+    height: 350px;
 }
 
 /* ------------------------------ MOBILE ------------------------------ */
