@@ -282,7 +282,7 @@
 }
 
 .sugeridos div img {
-    width: auto;
+    width: 300px;
 }
 
 .productos {
@@ -785,7 +785,7 @@ input[type="button"i] {
     }
 
     .sugeridos div img{
-        width: 300px;
+        width: 250px;
     }
 
     .a {
@@ -1254,7 +1254,7 @@ input[type="button"i] {
     }
 
     .sugeridos div img {
-        width: auto;
+        width: 300px;
     }
 
     .productos {
