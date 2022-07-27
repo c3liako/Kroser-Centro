@@ -410,6 +410,7 @@ input[type="button"i] {
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
     column-gap: 1rem;
+    padding: 1rem;
 }
 
 
@@ -682,6 +683,7 @@ input[type="button"i] {
         align-items: center;
         justify-items: center;
         justify-content: center;
+        padding: 1rem;
     }
 
     .informacion div {
@@ -823,6 +825,9 @@ input[type="button"i] {
         grid-row: 4 / 5;
     }
 
+    .sugeridos div img {
+        width: 250px;
+    }
 
     .productos {
         display: flex;
@@ -1116,6 +1121,7 @@ input[type="button"i] {
         align-items: center;
         justify-items: center;
         justify-content: center;
+        padding: 1rem;
     }
 
     .informacion div {
