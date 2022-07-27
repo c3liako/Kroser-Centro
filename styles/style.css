@@ -176,7 +176,9 @@
 .info p {
     width: auto;
 }
-
+.informacion{
+    padding: 1rem;
+}
 
 /* ------------------------------- PREPARACION ------------------------------ */
 .prep {
@@ -265,6 +267,7 @@
     grid-template-rows: auto auto;
     align-items: center;
     justify-content: center;
+    padding:1rem;
 }
 
 .a {
