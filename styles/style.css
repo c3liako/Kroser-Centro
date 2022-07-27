@@ -333,6 +333,7 @@ input[type="button"i] {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
+    grid-row-gap: 1rem ;
 }
 
 .contacto {
@@ -378,6 +379,7 @@ input[type="button"i] {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 1rem;
 
 }
 
@@ -401,16 +403,16 @@ input[type="button"i] {
 
 .contactoImg {
     padding: 50px;
+    width 750px;
 }
 
 
 /* -------------------------------- INFORMACION ------------------------------- */
 .informacion {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
     column-gap: 1rem;
-    padding: 1rem;
 }
 
 
@@ -683,7 +685,6 @@ input[type="button"i] {
         align-items: center;
         justify-items: center;
         justify-content: center;
-        padding: 1rem;
     }
 
     .informacion div {
@@ -825,9 +826,6 @@ input[type="button"i] {
         grid-row: 4 / 5;
     }
 
-    .sugeridos div img {
-        width: 250px;
-    }
 
     .productos {
         display: flex;
@@ -1121,7 +1119,6 @@ input[type="button"i] {
         align-items: center;
         justify-items: center;
         justify-content: center;
-        padding: 1rem;
     }
 
     .informacion div {
@@ -1139,9 +1136,12 @@ input[type="button"i] {
     /* ----------------------------- CONTACTO TABLET ---------------------------- */
     .contacto {
         display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap-reverse;
-
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+        padding: 10px;
     }
 
     .form {
@@ -1181,7 +1181,7 @@ input[type="button"i] {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-
+        margin-bottom: 10px;
     }
 
     .formButtons input {
@@ -1203,14 +1203,14 @@ input[type="button"i] {
     }
 
     .contactoImg {
-        width: 350px;
+        width: 400px;
         padding: 5px;
     }
 
     /* ----------------------------- SUGERIDOS TABLET ---------------------------- */
     .sugeridosTitle {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
         font-size: 36px;
     }
