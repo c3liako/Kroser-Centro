@@ -469,7 +469,7 @@ input[type="button"i] {
 
     .titulo {
         font-family: 'Oswald', sans-serif;
-        font-size: 30px;
+        font-size: 3rem;
         color: #fee516;
     }
 
@@ -549,7 +549,7 @@ input[type="button"i] {
         display: block;
         padding: 10px 0;
         color: white;
-        font-size: auto;
+        font-size: 30px;
         text-decoration: none;
     }
 
@@ -904,7 +904,7 @@ input[type="button"i] {
 
     .titulo {
         font-family: 'Oswald', sans-serif;
-        font-size: 30px;
+        font-size: 3rem;
         color: #fee516;
     }
 
@@ -985,7 +985,7 @@ input[type="button"i] {
         padding: 10px 0;
         color: white;
         text-decoration: none;
-        font-size: 10px;
+        font-size: 30px;
     }
 
     #menu-toggle:checked+#trickMenu {
@@ -1341,7 +1341,7 @@ input[type="button"i] {
 
     .titulo {
         font-family: 'Oswald', sans-serif;
-        font-size: 65px;
+        font-size: 4rem;
         color: #fee516;
     }
 
@@ -1588,7 +1588,7 @@ input[type="button"i] {
 
     .titulo {
         font-family: 'Oswald', sans-serif;
-        font-size: 65px;
+        font-size: 4rem;
         color: #fee516;
     }
 
