@@ -343,7 +343,7 @@ input[type="button" i] {
 
 .contactoImg {
   padding: 50px;
-  width: 750px; }
+  width: 500px; }
 
 /* ---------------------------------- Carta --------------------------------- */
 .carta {
@@ -589,7 +589,7 @@ input[type="button" i] {
       border-color: buttonborder;
       border-image: initial; }
   .contactoImg {
-    width: 350px;
+    width: 250px;
     padding: 5px; }
   /* ----------------------------- SUGERIDOS MOBILE ---------------------------- */
   .sugeridosTitle {
