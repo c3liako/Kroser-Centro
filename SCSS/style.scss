@@ -360,17 +360,17 @@ input[type="button"i] {
 }
 
 .formName {
-    @include flex-column-sa;
+    @extend .form;
     font-size: 20px;
 }
 
 .formMail {
-    @include flex-column-sa;
+    @extend .form;
     font-size: 20px;
 }
 
 .formConsulta {
-    @include flex-column-sa;
+    @extend .form;
     font-size: 20px;
 }
 
@@ -699,17 +699,17 @@ input[type="button"i] {
     }
 
     .formName {
-        @include flex-column-sa;
+        @extend .form;
         font-size: 20px;
     }
 
     .formMail {
-        @include flex-column-sa;
+        @extend .form;
         font-size: 20px;
     }
 
     .formConsulta {
-        @include flex-column-sa;
+        @extend .form;
         font-size: 20px;
     }
 
@@ -1111,17 +1111,17 @@ input[type="button"i] {
     }
 
     .formName {
-        @include flex-column-sa;
+        @extend .form;
         font-size: 20px;
     }
 
     .formMail {
-        @include flex-column-sa;
+        @extend .form;
         font-size: 20px;
     }
 
     .formConsulta {
-        @include flex-column-sa;
+        @extend .form;
         font-size: 20px;
     }
 
