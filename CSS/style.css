@@ -43,7 +43,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: nowrap;
-  background-image: url(../src/);
+  background-image: url(../src/multimedia/imagenes/index/fondo.jpg);
   color: white;
   font-variant-caps: all-petite-caps;
   font-size: 100%;
@@ -436,7 +436,7 @@ input[type="button" i] {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    background-image: url(../src/);
+    background-image: url(../src/multimedia/imagenes/index/fondo.jpg);
     color: white;
     font-variant-caps: all-petite-caps;
     font-size: 35px;
@@ -743,7 +743,7 @@ input[type="button" i] {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    background-image: url(../src/);
+    background-image: url(../src/multimedia/imagenes/index/fondo.jpg);
     color: white;
     font-variant-caps: all-petite-caps;
     font-size: 40px;
@@ -1060,7 +1060,7 @@ input[type="button" i] {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    background-image: url(../src/);
+    background-image: url(../src/multimedia/imagenes/index/fondo.jpg);
     color: white;
     font-variant-caps: all-petite-caps;
     font-size: 55px;
@@ -1229,7 +1229,7 @@ input[type="button" i] {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    background-image: url(../src/);
+    background-image: url(../src/multimedia/imagenes/index/fondo.jpg);
     color: white;
     font-variant-caps: all-petite-caps;
     font-size: 74px;
