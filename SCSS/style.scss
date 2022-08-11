@@ -51,7 +51,7 @@
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    background-image: url(../src/multimedia/imagenes/index/fondo.jpg);
+    background-image: url(../src/);
     color: $blanco;
     font-variant-caps: all-petite-caps;
     font-size: 100%;
@@ -550,7 +550,7 @@ input[type="button"i] {
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: nowrap;
-        background-image: url(../src/multimedia/imagenes/index/fondo.jpg);
+        background-image: url(../src/);
         color: $blanco;
         font-variant-caps: all-petite-caps;
         font-size: 35px;
@@ -699,17 +699,17 @@ input[type="button"i] {
     }
 
     .formName {
-        @extend .form;
+        @include flex-column-sa;
         font-size: 20px;
     }
 
     .formMail {
-        @extend .form;
+        @include flex-column-sa;
         font-size: 20px;
     }
 
     .formConsulta {
-        @extend .form;
+        @include flex-column-sa;
         font-size: 20px;
     }
 
@@ -961,7 +961,7 @@ input[type="button"i] {
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: nowrap;
-        background-image: url(../src/multimedia/imagenes/index/fondo.jpg);
+        background-image: url(../src/);
         color: $blanco;
         font-variant-caps: all-petite-caps;
         font-size: 40px;
@@ -1111,17 +1111,17 @@ input[type="button"i] {
     }
 
     .formName {
-        @extend .form;
+        @include flex-column-sa;
         font-size: 20px;
     }
 
     .formMail {
-        @extend .form;
+        @include flex-column-sa;
         font-size: 20px;
     }
 
     .formConsulta {
-        @extend .form;
+        @include flex-column-sa;
         font-size: 20px;
     }
 
@@ -1391,7 +1391,7 @@ input[type="button"i] {
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: nowrap;
-        background-image: url(../src/multimedia/imagenes/index/fondo.jpg);
+        background-image: url(../src/);
         color: $blanco;
         font-variant-caps: all-petite-caps;
         font-size: 55px;
@@ -1639,7 +1639,7 @@ input[type="button"i] {
         justify-content: space-evenly;
         align-items: center;
         flex-wrap: nowrap;
-        background-image: url(../src/multimedia/imagenes/index/fondo.jpg);
+        background-image: url(../src/);
         color: $blanco;
         font-variant-caps: all-petite-caps;
         font-size: 74px;

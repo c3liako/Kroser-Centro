@@ -43,7 +43,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: nowrap;
-  background-image: url(../imagenes/index/fondo.jpg);
+  background-image: url(../src/);
   color: white;
   font-variant-caps: all-petite-caps;
   font-size: 100%;
@@ -290,7 +290,7 @@ input[type="button" i] {
   display: flex;
   justify-content: space-around; }
 
-.form {
+.form, .formName, .formMail, .formConsulta {
   display: flex;
   flex-direction: column;
   justify-content: space-around; }
@@ -301,21 +301,12 @@ input[type="button" i] {
   padding: 20px; }
 
 .formName {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   font-size: 20px; }
 
 .formMail {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   font-size: 20px; }
 
 .formConsulta {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
   font-size: 20px; }
 
 .formButtons {
@@ -445,7 +436,7 @@ input[type="button" i] {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    background-image: url(../imagenes/index/fondo.jpg);
+    background-image: url(../src/);
     color: white;
     font-variant-caps: all-petite-caps;
     font-size: 35px;
@@ -544,7 +535,7 @@ input[type="button" i] {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap-reverse; }
-  .form {
+  .form, .formName, .formMail, .formConsulta {
     display: flex;
     flex-direction: column;
     justify-content: space-around; }
@@ -752,7 +743,7 @@ input[type="button" i] {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    background-image: url(../imagenes/index/fondo.jpg);
+    background-image: url(../src/);
     color: white;
     font-variant-caps: all-petite-caps;
     font-size: 40px;
@@ -855,7 +846,7 @@ input[type="button" i] {
     flex-direction: column-reverse;
     align-content: center;
     padding: 10px; }
-  .form {
+  .form, .formName, .formMail, .formConsulta {
     display: flex;
     flex-direction: column;
     justify-content: space-around; }
@@ -1069,7 +1060,7 @@ input[type="button" i] {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    background-image: url(../imagenes/index/fondo.jpg);
+    background-image: url(../src/);
     color: white;
     font-variant-caps: all-petite-caps;
     font-size: 55px;
@@ -1238,7 +1229,7 @@ input[type="button" i] {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: nowrap;
-    background-image: url(../imagenes/index/fondo.jpg);
+    background-image: url(../src/);
     color: white;
     font-variant-caps: all-petite-caps;
     font-size: 74px;
