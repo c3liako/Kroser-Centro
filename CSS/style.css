@@ -1,4 +1,8 @@
 /* ---------------------------- PALETA DE COLORES --------------------------- */
+/* ---------------------------- PALETA DE COLORES --------------------------- */
+/* ---------------------------- PALETA DE COLORES --------------------------- */
+/* ---------------------------- PALETA DE COLORES --------------------------- */
+/* ---------------------------- PALETA DE COLORES --------------------------- */
 * {
   margin: 0px;
   padding: 0px;
@@ -353,7 +357,6 @@ input[type="button" i] {
     height: 350px; }
 
 /* ------------------------------ Media queris ------------------------------ */
-/* ------------------------------ MOBILE ------------------------------ */
 @media (min-width: 0px) and (max-width: 480px) {
   .body {
     min-width: 0px;
@@ -661,7 +664,6 @@ input[type="button" i] {
     .accesorios h3 {
       grid-column: 1 / 4; } }
 
-/* --------------------------------- TABLET - L.MOBILE --------------------------------- */
 @media (min-width: 481px) and (max-width: 900px) {
   .body {
     min-width: 481px;
@@ -973,7 +975,6 @@ input[type="button" i] {
     .accesorios h3 {
       grid-column: 1 / 4; } }
 
-/* --------------------------- LAPTOP - L.TABLET - S.DESKTOP--------------------------- */
 @media (min-width: 901px) and (max-width: 1279px) {
   .body {
     min-width: 901px;
@@ -1143,7 +1144,6 @@ input[type="button" i] {
   #slide-3:checked ~ .control-3 ~ .slide-indicador li:nth-child(3) .slide-circulo {
     color: #428bca; } }
 
-/* --------------------------- L.DESKTOP - MONITORS --------------------------- */
 @media (min-width: 1280px) {
   .body {
     min-width: 1280px;
