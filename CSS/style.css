@@ -535,6 +535,8 @@ input[type="button" i] {
       justify-content: center;
       flex-wrap: wrap;
       width: auto; }
+  .info p {
+    padding: 30px; }
   /* ----------------------------- CONTACTO MOBILE ---------------------------- */
   .contacto {
     display: flex;
