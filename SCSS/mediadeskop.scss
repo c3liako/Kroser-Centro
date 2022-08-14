@@ -1,0 +1,253 @@
+@import "./colores.scss";
+@import "./mixin.scss";
+
+@mixin mediadeskop{
+    @media (min-width: 1280px) {
+
+        .body {
+            min-width: 1280px;
+            margin: 0px;
+            border: 0px;
+        }
+    
+        .header {
+            background-color: $azul;
+            width: 100%;
+        }
+    
+        .logo {
+            @include flex-c-c;
+            width: auto;
+    
+            div {
+                margin-top: 10px;
+            }
+        }
+    
+        .logoImg {
+            margin-right: 30px;
+        }
+    
+        .titulo {
+            font-family: 'Oswald', sans-serif;
+            font-size: 4rem;
+            color: $amarillo;
+        }
+    
+        .redes {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 15px;
+            align-content: flex-start;
+            flex-direction: row;
+            align-items: flex-start;
+    
+            div {
+                margin: 10px;
+            }
+        }
+    
+        /* ----------------------------------- NAV ---------------------------------- */
+        .navMobile {
+            display: none;
+            background-color: $azul;
+        }
+    
+        ul,
+        ol {
+            list-style: none;
+        }
+    
+    
+        .nav>li {
+            float: left;
+    
+        }
+    
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: $azul;
+            font-size: 25px;
+            font-variant-caps: all-petite-caps;
+    
+    
+            li {
+                a {
+                    background-color: $azul;
+                    color: $blanco;
+                    text-decoration: none;
+                    padding: 8px 10px;
+                    display: block;
+                    transition: height;
+                }
+    
+                a:hover {
+                    background-color: $azul;
+                    height: auto;
+                }
+    
+                ul {
+                    display: none;
+                    position: absolute;
+                }
+    
+                :hover>ul {
+                    display: block;
+                }
+    
+                ul {
+                    li {
+                        position: relative;
+    
+                        ul {
+                            right: -140px;
+                            top: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    
+        /* ---------------------------------- INDEX --------------------------------- */
+        .bodyindex {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto auto auto;
+        }
+    
+    
+        .redes {
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 15px;
+            align-content: flex-start;
+            flex-direction: row;
+            align-items: flex-start;
+        }
+    
+        .redes div {
+            margin: 10px;
+        }
+    
+        /* ---------------------------- IDEAS INNOVADORAS --------------------------- */
+        .ideas {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: nowrap;
+            background-image: url(../src/multimedia/imagenes/index/fondo.jpg
+    );
+            color: $blanco;
+            font-variant-caps: all-petite-caps;
+            font-size: 74px;
+            font-family: 'Fredericka the Great', cursive;
+            padding: 5px;
+        }
+    
+        .slide {
+            @include flex-column-c;
+        }
+    
+        .slide-inner {
+            position: relative;
+            overflow: hidden;
+            width: 70%;
+            height: auto;
+        }
+    
+        .slide-open:checked+.slide-item {
+            position: static;
+            opacity: 100;
+        }
+    
+        .slide-item {
+            position: absolute;
+            opacity: 0;
+            -webkit-transition: opacity 0.8s ease-out;
+            transition: opacity 0.8s ease-out;
+    
+            img {
+                display: block;
+                height: auto;
+                max-width: 100%;
+            }
+        }
+    
+        .slide-control {
+            background: rgba(0, 0, 0, 0.28);
+            border-radius: 50%;
+            color: #fff;
+            cursor: pointer;
+            display: none;
+            font-size: 40px;
+            height: 40px;
+            line-height: 35px;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translate(0, -50%);
+            cursor: pointer;
+            -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+            text-align: center;
+            width: 40px;
+            z-index: 10;
+        }
+    
+        .slide-control.prev {
+            left: 2%;
+        }
+    
+        .slide-control.next {
+            right: 2%;
+        }
+    
+        .slide-control:hover {
+            background: rgba(0, 0, 0, 0.8);
+            color: #aaaaaa;
+        }
+    
+        #slide-1:checked~.control-1,
+        #slide-2:checked~.control-2,
+        #slide-3:checked~.control-3 {
+            display: block;
+        }
+    
+        .slide-indicador {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            position: absolute;
+            bottom: 2%;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 10;
+    
+            li {
+                display: inline-block;
+                margin: 0 5px;
+            }
+        }
+    
+        .slide-circulo {
+            color: $gris;
+            cursor: pointer;
+            display: block;
+            font-size: 35px;
+        }
+    
+        .slide-circulo:hover {
+            color: #aaaaaa;
+        }
+    
+        #slide-1:checked~.control-1~.slide-indicador li:nth-child(1) .slide-circulo,
+        #slide-2:checked~.control-2~.slide-indicador li:nth-child(2) .slide-circulo,
+        #slide-3:checked~.control-3~.slide-indicador li:nth-child(3) .slide-circulo {
+            color: #428bca;
+        }
+    
+    }
+}
